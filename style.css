@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* this is header */
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 89px;
+    align-items: center;
+    justify-content: space-between;
+}
+header p{
+    margin-left: 30px;
+    font-size: 40px;
+
+}
+.main-div ul li{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.first-section{
+    background-image:linear-gradient( rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images//bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 12rem 0;
+    text-align: center;
+}
+.global-button{
+    background-color: tomato;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.first-section h2{
+    font-size: 6rem;
+    color: #ddd;
+    margin: 20px auto;
+}
+.first-section p{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+}
+
+.golobal-section{
+    padding: 3rem 0;
+   
+
+}
+.global-heading{
+    font-size: 45px;
+    text-align: center;
+
+}
+.global-heading-p{
+    font-size:  18px;
+    color: #7b7b7b;
+    text-align: center;
+    margin: 15px 10px;
+
+}
+.about-me{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    margin-left: 18rem;
+    
+}
+.about-bio{
+    padding: 4rem;
+    margin-left: 0rem;
+}
+
+.quick-bio{
+   margin: 10px 0;
+   font-size: 2rem;
+   font-weight: 600;
+   
+   
+}
+.about-bio p{
+    
+    color: #7b7b7b;
+}
+.pic img{
+    margin-top: 4rem;
+    height: 300px;
+    width: 350px;
+}
+/*this is services area*/
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+.grid-single-item h2{
+    margin: 15px 0;
+}
+.material-symbols-outlined{
+    font-size: 45px;
+}
+.grid-single-item p{
+    color: #7b7b7b;
+}
+.img-work{
+    width: 350px;
+}
+.testimonial-p{
+    color: black !important;
+    margin: 5px;
+}
+/*contact sections */
+form input{
+    width: 252px;
+    padding: 10px 225px;
+    margin-top: 10px;
+
+}
+textarea{
+    padding: 10px 110px;
+
+}
+form{
+    margin-left: 52rem;
+    margin-top: 20px;
+   
+
+}
+.submit-btn{
+    width: 100px;
+    height: 35px;
+    background-color: tomato;
+    color: white;
+    margin-top: 10px;
+}
+.Contact-heading{
+    text-align: center;
+    font-size: 45px;
+    margin-left: 75px;
+}
+footer{
+    margin-top: 45px;
+    background-color: black;
+    color: whitesmoke;
+    height: 3rem;
+    text-align: center;
+}
+footer p{
+    padding-top: 15px;
+}
